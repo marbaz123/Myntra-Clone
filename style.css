@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: white;
+    z-index: 10;
+}
+.logo{
+    padding-left: 40px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.options,.opt{
+    padding: 30px;
+}
+.but{
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.inp{
+    width: 400px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.middle{
+    background-color: rgb(251, 251, 245);
+    padding: 0 80px;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(16, 84, 16);
+    color: white;
+}
