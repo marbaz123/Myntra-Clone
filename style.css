@@ -47,3 +47,16 @@ body{
     background-color: rgb(16, 84, 16);
     color: white;
 }
+.sort-btn{
+    display: flex;
+    gap: 10px;
+    margin-right: 80px;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+.btn-1,.btn-2{
+    background-color: #ffa500;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
